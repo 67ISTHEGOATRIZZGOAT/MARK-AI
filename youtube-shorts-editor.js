@@ -4,6 +4,13 @@ function generateViralEditSuggestions(playerName, sport) {
     const suggestions = [];
 
     if (sport.toLowerCase() === 'soccer') {
+        // Solo Player Edits
+        suggestions.push(
+            `${playerName}'s signature moves and skills compilation in slow motion.`
+        );
+        suggestions.push(
+            `Solo dribbling showcase: Watch ${playerName} take on entire defenses.`
+        );
         suggestions.push(
             `Highlight reel of ${playerName}'s top 10 goals with slow-motion effects.`
         );
@@ -18,6 +25,20 @@ function generateViralEditSuggestions(playerName, sport) {
         );
         suggestions.push(
             `Behind-the-scenes footage of ${playerName}'s matches with fan reactions.`
+        );
+        
+        // Reverse Edits
+        suggestions.push(
+            `${playerName}'s best goals played in reverse - mind-bending visual effect.`
+        );
+        suggestions.push(
+            `Reverse slow-motion: Watch ${playerName}'s skills and tricks backwards.`
+        );
+        suggestions.push(
+            `${playerName}'s match highlights reversed for a unique viral twist.`
+        );
+        suggestions.push(
+            `Backwards replay compilation: ${playerName}'s assists in reverse motion.`
         );
     } else if (sport.toLowerCase() === 'cricket') {
         suggestions.push(
